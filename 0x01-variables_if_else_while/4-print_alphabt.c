@@ -11,12 +11,8 @@
 int main(void)
 {
 char a;
-char e;
-char q;
-e = 'e';
-q = 'q';
 for (a = 'a'; a <= 'z'; a++)
-if (a != e && a != 'q')
+if (a != 'e' && a != 'q')
 putchar(a);
 return (0);
 }
