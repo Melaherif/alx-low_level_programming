@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_i - Chekcks for _isupper chracter
+*_isupper - Chekcks if a letter is upper
 *@c:the character to be checked
 *Return: 1 for _isupper character or 0 for any thing else
 */
