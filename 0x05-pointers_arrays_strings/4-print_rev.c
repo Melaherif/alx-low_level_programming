@@ -4,7 +4,7 @@
 *@s:a para on function
 *Return:empty
 **/
-char print_rev(char *s)
+void print_rev(char *s)
 {
 int i;
 while (s[i] != '\0')
