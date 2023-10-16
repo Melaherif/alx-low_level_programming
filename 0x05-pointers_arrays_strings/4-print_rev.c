@@ -13,7 +13,7 @@ i++;
 }
 while (i--)
 {
-putchar (s[i]);
+_putchar (s[i]);
 }
-putchar ('\n');
+_putchar ('\n');
 }
