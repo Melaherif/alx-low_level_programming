@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 *swap_int- a function swap the para b on a
 *@a:is para swap to b
@@ -7,7 +7,7 @@
 **/
 void swap_int(int *a, int *b)
 {
-int temp;
+int temp; 
 *a = temp;
 *a = *b;
 *b = temp;
