@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-*_strcat- a function that concatenates two strings
+*_strncat- a function that concatenates two strings
 *@n: a para in function
 *@dest: a para in function
 *@src: a para in function
 *Return:dest value
 */
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 int i, x;
 i = 0;
